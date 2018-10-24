@@ -38,7 +38,7 @@ class photoHero extends StatelessWidget {
 class mine_page extends StatelessWidget {
 
   Widget build(BuildContext context) {
-    timeDilation = 2.0;
+//    timeDilation = 2.0;
     return Scaffold(
       appBar: AppBar(title: Text('mine Page'),),
       body: Center(
