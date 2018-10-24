@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'commen_view.dart';
 import 'home_page.dart';
+import 'mine_hero.dart';
 class bottom_bar extends StatefulWidget {
   @override
   _bottom_barState createState() => _bottom_barState();
@@ -16,7 +17,7 @@ class _bottom_barState extends State<bottom_bar> {
     // TODO: implement initState
     super.initState();
     _commenArr = List();
-    _commenArr..add(home_page())..add(commen_view('mine'));
+    _commenArr..add(home_page())..add(mine_page());
   }
 
   @override
