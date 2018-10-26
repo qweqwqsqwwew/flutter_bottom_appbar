@@ -35,7 +35,7 @@ class photoHero extends StatelessWidget {
 }
 
 
-class mine_page extends StatelessWidget {
+class mine_page extends StatelessWidget{
 
   Widget build(BuildContext context) {
 //    timeDilation = 2.0;

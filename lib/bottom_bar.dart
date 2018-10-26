@@ -7,7 +7,7 @@ class bottom_bar extends StatefulWidget {
   _bottom_barState createState() => _bottom_barState();
 }
 
-class _bottom_barState extends State<bottom_bar> {
+class _bottom_barState extends State<bottom_bar>{
 
   List<Widget> _commenArr;
   int _index = 0;

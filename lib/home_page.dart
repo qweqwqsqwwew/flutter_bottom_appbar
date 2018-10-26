@@ -8,7 +8,9 @@ class home_page extends StatefulWidget {
   _home_pageState createState() => _home_pageState();
 }
 
-class _home_pageState extends State<home_page> {
+class _home_pageState extends State<home_page>  with AutomaticKeepAliveClientMixin {
+  // TODO: implement wantKeepAlive
+  bool get wantKeepAlive => true;
 
   List<String> _images;
   ScrollController _controller;
@@ -16,6 +18,7 @@ class _home_pageState extends State<home_page> {
   @override
   void initState() {
     // TODO: implement initState
+    print('ghsjdhshgsdhghgdsghhgdghs');
     super.initState();
     _images = List();
     _controller = ScrollController();
