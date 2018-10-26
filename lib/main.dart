@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'bottom_bar.dart';
+//import 'bottom_bar.dart';
+import 'introduce_view.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: bottom_bar(),
+      home: slider_screen(),
+
     );
   }
 }
