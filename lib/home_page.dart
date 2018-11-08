@@ -10,6 +10,7 @@ class home_page extends StatefulWidget {
 
 class _home_pageState extends State<home_page>  with AutomaticKeepAliveClientMixin {
   // TODO: implement wantKeepAlive
+  @override
   bool get wantKeepAlive => true;
 
   List<String> _images;

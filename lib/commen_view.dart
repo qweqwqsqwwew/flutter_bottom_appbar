@@ -52,7 +52,7 @@ class _commen_viewState extends State<commen_view> {
 //          style: TextStyle(color: Colors.red,fontSize: 30.0),
 //
 //        ),
-//        alignment: Alignment.center,
+//        alignmenhttps://m.kx5551.com/?fromapp=2t: Alignment.center,
 //        color: Colors.lightBlueAccent,
 //
 //      ),
@@ -78,7 +78,6 @@ class _commen_viewState extends State<commen_view> {
               setState(() {
                 _lauched = _laucnch_invc(url);
               });
-
             },
             child: Text('在app内部代开网页'),
           ),
@@ -86,7 +85,6 @@ class _commen_viewState extends State<commen_view> {
           new FutureBuilder(builder: _launchStatus,future: _lauched,),
         ],
       ),
-
     ),
     );
   }
